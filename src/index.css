@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@utility mycontainer {
+    @apply container px-40 py-16 mx-auto;
+}
+@utility navcontainer {
+    @apply container px-40 mx-auto;
+}
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
